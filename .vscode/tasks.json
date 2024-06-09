@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dotnet",
+			"task": "build F:\\dev\\dotnet_tutorial\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+			"file": "F:\\dev\\dotnet_tutorial\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+			"group": {
+				"kind": "build",
+				"isDefault": true,
+			},
+			"problemMatcher": [],
+			"label": "dotnet: build F:\\dev\\dotnet_tutorial\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj"
+		}
+	]
+}
