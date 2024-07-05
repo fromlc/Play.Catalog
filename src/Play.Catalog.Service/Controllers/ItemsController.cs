@@ -26,10 +26,21 @@ namespace Play.Catalog.Service.Controllers
 
         // GET /items/{id}
         [HttpGet("{id}")]
+
         public ItemDto GetById(Guid id)
         {
             var item = items.Where(item => item.Id == id).SingleOrDefault();
             return item;
+        }
+
+        // add item with POST
+        [HttpPost]
+        public ActionResult<ItemDto> Post(CreateItemDto createItemDto)
+        {
+            var item = new ItemDto(Guid.NewGuid(), createItemDto.Name, createItemDto.Description, createItemDto.Price, DateTimeOffset.UtcNow);
+            items.Add(item);
+
+            return CreatedAtAction(nameof(GetById), new { id = item.Id }, item);
         }
     }
 }
