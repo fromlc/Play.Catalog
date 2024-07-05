@@ -26,7 +26,6 @@ namespace Play.Catalog.Service.Controllers
 
         // GET /items/{id}
         [HttpGet("{id}")]
-
         public ItemDto GetById(Guid id)
         {
             var item = items.Where(item => item.Id == id).SingleOrDefault();
@@ -41,6 +40,25 @@ namespace Play.Catalog.Service.Controllers
             items.Add(item);
 
             return CreatedAtAction(nameof(GetById), new { id = item.Id }, item);
+        }
+
+        // update item with PUT /items/{id}
+        [HttpPut("{id}")]
+        public IActionResult Put(Guid id, UpdateItemDto updateItemDto)
+        {
+            var existingItem = items.Where(item => item.Id == id).SingleOrDefault();
+
+            var updatedItem = existingItem with
+            {
+                Name = updateItemDto.Name,
+                Descripiton = updateItemDto.Description,
+                Price = updateItemDto.Price,
+            };
+
+            var index = items.FindIndex(existingItem => existingItem.Id == id);
+            items[index] = updatedItem;
+
+            return NoContent();
         }
     }
 }
