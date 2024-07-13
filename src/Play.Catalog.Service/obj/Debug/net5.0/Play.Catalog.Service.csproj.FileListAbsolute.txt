@@ -27,3 +27,16 @@ f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Pl
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\ref\Play.Catalog.Service.dll
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.pdb
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.genruntimeconfig.cache
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\AWSSDK.Core.dll
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\AWSSDK.SecurityToken.dll
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\DnsClient.dll
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\MongoDB.Bson.dll
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\MongoDB.Driver.dll
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\SharpCompress.dll
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Snappier.dll
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\ZstdSharp.dll
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
