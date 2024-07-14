@@ -5,7 +5,6 @@ f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Pl
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Play.Catalog.Service.runtimeconfig.json
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Play.Catalog.Service.runtimeconfig.dev.json
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Play.Catalog.Service.dll
-f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\ref\Play.Catalog.Service.dll
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Play.Catalog.Service.pdb
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.OpenApi.dll
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -19,10 +18,8 @@ f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Pl
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.MvcApplicationPartsAssemblyInfo.cs
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.MvcApplicationPartsAssemblyInfo.cache
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\Play.Catalog.Service.StaticWebAssets.Manifest.cache
-f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\Play.Catalog.Service.StaticWebAssets.xml
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\scopedcss\bundle\Play.Catalog.Service.styles.css
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.RazorTargetAssemblyInfo.cache
-f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.csproj.CopyComplete
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.dll
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\ref\Play.Catalog.Service.dll
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.pdb
@@ -40,3 +37,11 @@ f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Zs
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.sourcelink.json
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\Play.Catalog.Service.StaticWebAssets.Pack.cache
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\msbuild.Play.Catalog.Service.Microsoft.AspNetCore.StaticWebAssets.props
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\msbuild.build.Play.Catalog.Service.props
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Play.Catalog.Service.props
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Play.Catalog.Service.props
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Cat.72A81496.Up2Date
+f:\dev\dotnet_tutorial\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\refint\Play.Catalog.Service.dll

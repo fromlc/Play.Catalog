@@ -14,11 +14,16 @@ using Microsoft.OpenApi.Models;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
+using MongoDB.Driver;
+using Play.Catalog.Service.Repositories;
+using Play.Catalog.Service.Settings;
 
 namespace Play.Catalog.Service
 {
     public class Startup
     {
+        private ServiceSettings serviceSettings;
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -32,6 +37,23 @@ namespace Play.Catalog.Service
             // store Id and CreatedDate as strings
             BsonSerializer.RegisterSerializer(new GuidSerializer(BsonType.String));
             BsonSerializer.RegisterSerializer(new DateTimeOffsetSerializer(BsonType.String));
+
+            // retrieve service settings from appsettings.json
+            serviceSettings = Configuration.GetSection(nameof(ServiceSettings)).Get<ServiceSettings>(); ;
+
+            // register services with service container
+
+            // construct MongoDB client
+            services.AddSingleton(serviceProvider =>
+            {
+                var mongoDbSettings = Configuration.GetSection(nameof(MongoDbSettings)).Get<MongoDbSettings>();
+                var mongoClient = new MongoClient(mongoDbSettings.ConnectionString);
+
+                return mongoClient.GetDatabase(serviceSettings.ServiceName);
+            });
+
+            // register names of interface and type (class) that implements it
+            services.AddSingleton<IItemsRepository, ItemsRepository>();
 
             // fix bug introduced in ASP.NET 3: strips Async from action function name
             services.AddControllers(options =>
