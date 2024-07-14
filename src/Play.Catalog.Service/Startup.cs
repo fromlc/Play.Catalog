@@ -22,6 +22,7 @@ namespace Play.Catalog.Service
 {
     public class Startup
     {
+        // from appsettings.json
         private ServiceSettings serviceSettings;
 
         public Startup(IConfiguration configuration)
