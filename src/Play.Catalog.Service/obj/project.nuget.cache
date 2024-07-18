@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KOR7HMMQiEM=",
+  "dgSpecHash": "iPrFEDft5WY=",
   "success": true,
-  "projectFilePath": "f:\\dev\\dotnet_tutorial\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+  "projectFilePath": "F:\\dev\\dotnet_tutorial\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wifih\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\wifih\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
