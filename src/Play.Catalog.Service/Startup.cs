@@ -15,6 +15,7 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
 using MongoDB.Driver;
+using Play.Catalog.Service.Entities;
 using Play.Catalog.Service.Repositories;
 using Play.Catalog.Service.Settings;
 
@@ -54,7 +55,11 @@ namespace Play.Catalog.Service
             });
 
             // register names of interface and type (class) that implements it
-            services.AddSingleton<IItemsRepository, ItemsRepository>();
+            services.AddSingleton<IRepository<Item>>(serviceProvider =>
+            {
+                var database = serviceProvider.GetService<IMongoDatabase>();
+                return new MongoRepository<Item>(database, "items");
+            });
 
             // fix bug introduced in ASP.NET 3: strips Async from action function name
             services.AddControllers(options =>
